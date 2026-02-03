@@ -1,11 +1,13 @@
-[gd_scene load_steps=3 format=3 uid="uid://djy6w88rs2inr"]
+[gd_scene load_steps=4 format=3 uid="uid://djy6w88rs2inr"]
 
+[ext_resource type="Script" uid="uid://6bkxxakw3a66" path="res://Tutorial-in-depth-/scenes/levels/level.gd" id="1_774c0"]
 [ext_resource type="Script" uid="uid://bcvasrjggymgb" path="res://Tutorial-in-depth-/scripts/logo.gd" id="1_eiw8r"]
 
 [sub_resource type="CompressedTexture2D" id="CompressedTexture2D_7m1oq"]
 load_path = "res://.godot/imported/icon.svg-233afd0022e1f5ee0b0645c4792c0e61.ctex"
 
 [node name="Level" type="Node2D"]
+script = ExtResource("1_774c0")
 
 [node name="Logo" type="Sprite2D" parent="."]
 texture = SubResource("CompressedTexture2D_7m1oq")
